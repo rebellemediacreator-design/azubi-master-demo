@@ -1,0 +1,465 @@
+{
+  "meta": {
+    "beruf": "REFA (Fachmann/Fachfrau für Restaurants und Veranstaltungsgastronomie)",
+    "pruefungsteil": "GAP 2 (Gestreckte Abschlussprüfung Teil 2)",
+    "pruefungsbereich": "",
+    "dauer": "240 Min praktisch + 300 Min schriftlich verteilt",
+    "gewichtung": "75% der Gesamtnote",
+    "fragen_gesamt": 35,
+    "kategorien": []
+  },
+  "fragen": [
+    {
+      "id": "REFA-G2-SV-001",
+      "bereich": "Serviceabläufe & Veranstaltungen",
+      "frage": "Erklären Sie die Serviceform ‚Büffetservice' und nennen Sie ein typisches Anwendungsbeispiel.",
+      "frage_typ": "offen_kurz",
+      "hinweise": "Büffet: Selbstbedienung durch Gäste von aufgebauten Platten und Schalen. z.B. Hochzeitsfeier, Tagung, Firmenevent.",
+      "schwierigkeitsgrad": "mittel",
+      "max_punkte": 3
+    },
+    {
+      "id": "REFA-G2-SV-002",
+      "bereich": "Serviceabläufe & Veranstaltungen",
+      "frage": "Bei einem Banquet mit 100 Personen welche Serviceform ist effizienzoptimal?",
+      "frage_typ": "single_choice",
+      "optionen": [
+        "A) Einzelne Tischservice von rechts",
+        "B) Tellerbedienung (Serviceplatten)",
+        "C) Freie Bestückung am Büffet",
+        "D) Einzelne Tellerservice von links"
+      ],
+      "richtige_antwort": "B",
+      "hinweise": "Tellerbedienung ist bei großen Gruppen logistisch überlegen.",
+      "schwierigkeitsgrad": "mittel"
+    },
+    {
+      "id": "REFA-G2-VE-003",
+      "bereich": "Serviceabläufe & Veranstaltungen",
+      "frage": "Erstellen Sie einen Zeitplan für ein 3-Gänge-Dinner mit 40 Personen (2-Stunden-Rahmen).",
+      "frage_typ": "offen_kurz",
+      "hinweise": "19:00 Aperitif & Begrüßung, 19:20 1. Gang, 19:50 2. Gang, 20:20 3. Gang, 20:50 Verabschiedung.",
+      "schwierigkeitsgrad": "schwer",
+      "max_punkte": 4
+    },
+    {
+      "id": "REFA-G2-SV-004",
+      "bereich": "Serviceabläufe & Veranstaltungen",
+      "frage": "Welche Aspekte sind beim Service eines Gala-Dinners entscheidend?",
+      "frage_typ": "multiple_choice",
+      "optionen": [
+        "A) Synchronisierter Serviceablauf für alle Tische",
+        "B) Präzise Getränkebegleitung zu jedem Gang",
+        "C) Diskrete, elegante Servicepräsenz",
+        "D) Häufige Interaktionen mit Gästen über Speisen"
+      ],
+      "richtige_antworten": [
+        "A",
+        "B",
+        "C"
+      ],
+      "hinweise": "Gala-Service erfordert Timing und Eleganz.",
+      "schwierigkeitsgrad": "mittel"
+    },
+    {
+      "id": "REFA-G2-VE-005",
+      "bereich": "Serviceabläufe & Veranstaltungen",
+      "frage": "Was ist eine ‚Banquet Event Order' (BEO) und welche 5 wesentlichen Inhalte hat sie?",
+      "frage_typ": "offen_kurz",
+      "hinweise": "BEO ist schriftliche Veranstaltungsbestätigung mit: Menü, Gästezahl, Raum, Getränke, Serviceform, Zeitplan, Besonderheiten.",
+      "schwierigkeitsgrad": "mittel",
+      "max_punkte": 5
+    },
+    {
+      "id": "REFA-G2-SV-006",
+      "bereich": "Serviceabläufe & Veranstaltungen",
+      "frage": "Was ist ‚Plattenbedienung'?",
+      "frage_typ": "single_choice",
+      "optionen": [
+        "A) Service von einzelnen Tellern",
+        "B) Service von großen Platten, die das Personal portioniert",
+        "C) Selbstbedienung",
+        "D) Alle Speisen auf einem Teller serviert"
+      ],
+      "richtige_antwort": "B",
+      "hinweise": "Klassische Serviceform mit hoher Eleganz.",
+      "schwierigkeitsgrad": "leicht"
+    },
+    {
+      "id": "REFA-G2-VE-007",
+      "bereich": "Serviceabläufe & Veranstaltungen",
+      "frage": "Event mit 80 Personen à 45 € Menü (32 % WE) + 15 € Getränke (50 % WE). Overhead 12 % des Menüumsatzes. Berechnen Sie Umsatz, Wareneinsatz, Kosten und Gewinn.",
+      "frage_typ": "rechenaufgabe",
+      "richtige_antwort": "Umsatz: 4800 €, WE: 1752 €, Kosten: 2184 €, Gewinn: 2616 €",
+      "schwierigkeitsgrad": "schwer",
+      "loesungsschritte": "Menü-Umsatz: 80 × 45 = 3600 €. Getränke-Umsatz: 80 × 15 = 1200 €. Gesamt: 4800 €. WE Menü: 3600 × 0,32 = 1152 €. WE Getränke: 1200 × 0,5 = 600 €. Overhead: 3600 × 0,12 = 432 €. Kosten: 1152 + 600 + 432 = 2184 €. Gewinn: 4800 - 2184 = 2616 €.",
+      "max_punkte": 6
+    },
+    {
+      "id": "REFA-G2-SV-008",
+      "bereich": "Serviceabläufe & Veranstaltungen",
+      "frage": "Beschreiben Sie die Phase ‚Eventbriefing' und ihre Bedeutung.",
+      "frage_typ": "offen_kurz",
+      "hinweise": "Besprechung vor der Veranstaltung mit Kunde und Team. Klärt: Menü-Details, Gästezahl, Timing, Allergie/Diätwünsche, Setup, Service-Details. Essentiell für Qualität.",
+      "schwierigkeitsgrad": "mittel",
+      "max_punkte": 4
+    },
+    {
+      "id": "REFA-G2-SV-009",
+      "bereich": "Serviceabläufe & Veranstaltungen",
+      "frage": "Was ist ‚Late Check-out' im Servicekontext?",
+      "frage_typ": "single_choice",
+      "optionen": [
+        "A) Gast zahlt zu spät",
+        "B) Verspätete Abreise, oft gegen Aufpreis",
+        "C) Später Service im Restaurant",
+        "D) Zu spät ankommende Gäste"
+      ],
+      "richtige_antwort": "B",
+      "hinweise": "Late Check-out ist Zusatzleistung mit Aufpreis bei Verfügbarkeit.",
+      "schwierigkeitsgrad": "mittel"
+    },
+    {
+      "id": "REFA-G2-VE-010",
+      "bereich": "Serviceabläufe & Veranstaltungen",
+      "frage": "Welche Schritte gehören zur Post-Event-Nachbereitung?",
+      "frage_typ": "multiple_choice",
+      "optionen": [
+        "A) Abrechnung mit Kunde",
+        "B) Kundenfeedback einholen",
+        "C) Personal-Abrechnungen",
+        "D) Schäden dokumentieren"
+      ],
+      "richtige_antworten": [
+        "A",
+        "B",
+        "C",
+        "D"
+      ],
+      "hinweise": "Nachbereitung ist essentiell für Qualitätssicherung.",
+      "schwierigkeitsgrad": "mittel"
+    },
+    {
+      "id": "REFA-G2-SV-011",
+      "bereich": "Serviceabläufe & Veranstaltungen",
+      "frage": "Was ist ‚Turn-down Service' im Restaurant/Event?",
+      "frage_typ": "offen_kurz",
+      "hinweise": "Abendbetreuung bei gehobenen Events: Tische vorbereiten, Beleuchtung anpassen, Tischwäsche prüfen, Athmosphäre schaffen.",
+      "schwierigkeitsgrad": "leicht",
+      "max_punkte": 2
+    },
+    {
+      "id": "REFA-G2-VE-012",
+      "bereich": "Serviceabläufe & Veranstaltungen",
+      "frage": "Was bedeutet ‚Upselling' im Event-Service?",
+      "frage_typ": "single_choice",
+      "optionen": [
+        "A) Premium-Weine statt einfachen Weinen empfehlen",
+        "B) Zusatzservices wie Dessertbuffet oder Premium-Getränke verkaufen",
+        "C) Teuere Speisen bevorzugt empfehlen",
+        "D) Alle B und C sind richtig"
+      ],
+      "richtige_antwort": "D",
+      "hinweise": "Upselling erhöht Umsatz und Kundenzufriedenheit.",
+      "schwierigkeitsgrad": "mittel"
+    },
+    {
+      "id": "REFA-G2-GT-001",
+      "bereich": "Getränke & Bar",
+      "frage": "Was ist ein ‚Shaker' in der Bar?",
+      "frage_typ": "single_choice",
+      "optionen": [
+        "A) Ein Messbecher",
+        "B) Ein Gerät zum Mixen von Cocktails",
+        "C) Ein Sieb",
+        "D) Ein Stößel"
+      ],
+      "richtige_antwort": "B",
+      "hinweise": "Shaker sind essentiell für Cocktail-Herstellung.",
+      "schwierigkeitsgrad": "leicht"
+    },
+    {
+      "id": "REFA-G2-GT-002",
+      "bereich": "Getränke & Bar",
+      "frage": "Nennen Sie drei Werkzeuge der Bar und ihre Funktion.",
+      "frage_typ": "offen_kurz",
+      "hinweise": "z.B. Jigger (Dosierung), Strainer (Sieben), Muddler (Zerreiben), Bar-Spoon (Rühren).",
+      "schwierigkeitsgrad": "mittel",
+      "max_punkte": 3
+    },
+    {
+      "id": "REFA-G2-GT-003",
+      "bereich": "Getränke & Bar",
+      "frage": "Welcher Grundsatz gilt beim Servieren von Rotwein?",
+      "frage_typ": "single_choice",
+      "optionen": [
+        "A) Eisgekühlt bei 5 °C",
+        "B) Zimmertemperatur (16-18 °C) oder leicht gekühlt",
+        "C) Über 30 °C",
+        "D) Heiß serviert"
+      ],
+      "richtige_antwort": "B",
+      "hinweise": "Rote Weine brauchen Raum für ihr Aroma.",
+      "schwierigkeitsgrad": "mittel"
+    },
+    {
+      "id": "REFA-G2-GT-004",
+      "bereich": "Getränke & Bar",
+      "frage": "Welche Aussagen zur Getränkebegleitung sind korrekt?",
+      "frage_typ": "multiple_choice",
+      "optionen": [
+        "A) Weiß- und Roséweine kaltstellen vor dem Service",
+        "B) Gläser sollten maximal zu 2/3 gefüllt werden",
+        "C) Getränke von rechts servieren",
+        "D) Glaswahl nach Gang abstimmen"
+      ],
+      "richtige_antworten": [
+        "A",
+        "B",
+        "C",
+        "D"
+      ],
+      "hinweise": "Getränkeservice folgt strikten Regeln der Eleganz.",
+      "schwierigkeitsgrad": "mittel"
+    },
+    {
+      "id": "REFA-G2-GT-005",
+      "bereich": "Getränke & Bar",
+      "frage": "Was ist ‚Bar-Back'?",
+      "frage_typ": "single_choice",
+      "optionen": [
+        "A) Der Manager der Bar",
+        "B) Unterstützende Tätigkeit: Glaswäsche, Vorbereitung, Nachschub",
+        "C) Ein Cocktail-Name",
+        "D) Ein Arbeitsbereich"
+      ],
+      "richtige_antwort": "B",
+      "hinweise": "Bar-Back ist eine Support-Funktion für den Barkeeper.",
+      "schwierigkeitsgrad": "leicht"
+    },
+    {
+      "id": "REFA-G2-GT-006",
+      "bereich": "Getränke & Bar",
+      "frage": "Nennen Sie drei klassische Cocktails und ihre Grundzutaten.",
+      "frage_typ": "offen_kurz",
+      "hinweise": "z.B. Margarita (Tequila, Lime, Triple Sec), Daiquiri (Rum, Lime, Zucker), Cosmopolitan (Vodka, Cranberry, Cointreau).",
+      "schwierigkeitsgrad": "mittel",
+      "max_punkte": 3
+    },
+    {
+      "id": "REFA-G2-GT-007",
+      "bereich": "Getränke & Bar",
+      "frage": "Welche Temperatur hat ‚Raumtemperatur' für Rotweine?",
+      "frage_typ": "single_choice",
+      "optionen": [
+        "A) 10-12 °C",
+        "B) 16-18 °C",
+        "C) 22-24 °C",
+        "D) 30 °C"
+      ],
+      "richtige_antwort": "B",
+      "hinweise": "‚Cellar temperature' oder ‚chamber temperature' ist ideal.",
+      "schwierigkeitsgrad": "mittel"
+    },
+    {
+      "id": "REFA-G2-GT-008",
+      "bereich": "Getränke & Bar",
+      "frage": "Bei einem Event mit 60 Gästen wird ein Getränkepaket à 12 € pro Person kalkuliert. Der durchschnittliche Wareneinsatz beträgt 50 %. Berechnen Sie Umsatz, WE und Deckungsbeitrag.",
+      "frage_typ": "rechenaufgabe",
+      "richtige_antwort": "Umsatz: 720 €, WE: 360 €, DB: 360 €",
+      "schwierigkeitsgrad": "mittel",
+      "loesungsschritte": "Umsatz: 60 × 12 € = 720 €. WE: 720 € × 0,50 = 360 €. DB: 720 € - 360 € = 360 €.",
+      "max_punkte": 3
+    },
+    {
+      "id": "REFA-G2-WW-001",
+      "bereich": "Warenwirtschaft & Kalkulation",
+      "frage": "Berechnen Sie für ein 4-Gang-Menü (80 Personen): Gang 1: 4,20 €, Gang 2: 6,80 €, Gang 3: 7,50 €, Gang 4: 3,20 €. Gesamtwareneinsatz?",
+      "frage_typ": "rechenaufgabe",
+      "richtige_antwort": 1736,
+      "schwierigkeitsgrad": "mittel",
+      "loesungsschritte": "Pro Person: 4,20 + 6,80 + 7,50 + 3,20 = 21,70 €. Für 80 Personen: 21,70 € × 80 = 1736 €.",
+      "einheit": "€"
+    },
+    {
+      "id": "REFA-G2-WW-002",
+      "bereich": "Warenwirtschaft & Kalkulation",
+      "frage": "Welcher Wareneinsatz-Prozentsatz ist typisch für Restaurant-Speisen?",
+      "frage_typ": "single_choice",
+      "optionen": [
+        "A) 15-20 %",
+        "B) 28-35 %",
+        "C) 50-60 %",
+        "D) 70-80 %"
+      ],
+      "richtige_antwort": "B",
+      "hinweise": "Branchentypischer Standard für Gastronomie.",
+      "schwierigkeitsgrad": "leicht"
+    },
+    {
+      "id": "REFA-G2-WW-003",
+      "bereich": "Warenwirtschaft & Kalkulation",
+      "frage": "Erklären Sie ‚Ausbeute' bei Lebensmitteln mit einem Beispiel.",
+      "frage_typ": "offen_kurz",
+      "hinweise": "Ausbeute = nutzbarer Anteil nach Putz-/Kochverlust. z.B. 8 kg Rinderbraten mit 20 % Verlust = 6,4 kg Nutzgewicht.",
+      "schwierigkeitsgrad": "mittel",
+      "max_punkte": 3
+    },
+    {
+      "id": "REFA-G2-WW-004",
+      "bereich": "Warenwirtschaft & Kalkulation",
+      "frage": "Welche Maßnahmen reduzieren Lebensmittelverschwendung?",
+      "frage_typ": "multiple_choice",
+      "optionen": [
+        "A) FIFO-Lagerprinzip",
+        "B) Genaue Bedarfsplanung",
+        "C) Nutzung von Gemüseabfällen für Brühen",
+        "D) Alle genannten Maßnahmen"
+      ],
+      "richtige_antwort": "D",
+      "hinweise": "Nachhaltigkeit ist moderner Standard.",
+      "schwierigkeitsgrad": "mittel"
+    },
+    {
+      "id": "REFA-G2-WW-005",
+      "bereich": "Warenwirtschaft & Kalkulation",
+      "frage": "Kalkulieren Sie ein Menü: Wareneinsatz 18,50 €, Kalkulationsfaktor 3,8, gewünschter Preis? Dann: Bei 45 Gästen Gesamtumsatz?",
+      "frage_typ": "rechenaufgabe",
+      "richtige_antwort": 3163.5,
+      "schwierigkeitsgrad": "schwer",
+      "loesungsschritte": "Menüpreis = 18,50 € × 3,8 = 70,30 €. Für 45 Gäste: 70,30 € × 45 = 3163,50 €.",
+      "einheit": "€"
+    },
+    {
+      "id": "REFA-G2-WW-006",
+      "bereich": "Warenwirtschaft & Kalkulation",
+      "frage": "Welcher Prozentsatz ist typisch für Getränkewareneinsatz?",
+      "frage_typ": "single_choice",
+      "optionen": [
+        "A) 15-20 %",
+        "B) 30-40 %",
+        "C) 45-55 %",
+        "D) 70-80 %"
+      ],
+      "richtige_antwort": "C",
+      "hinweise": "Getränke haben höhere WE% als Speisen.",
+      "schwierigkeitsgrad": "leicht"
+    },
+    {
+      "id": "REFA-G2-WW-007",
+      "bereich": "Warenwirtschaft & Kalkulation",
+      "frage": "Beschreiben Sie die Bedeutung von ‚Deckungsbeitrag' in der Gastronomie.",
+      "frage_typ": "offen_kurz",
+      "hinweise": "DB = Umsatz minus variable Kosten (WE, Personal). Zeigt, wieviel zur Deckung der Fixkosten übrig bleibt. Höherer DB = bessere Profitabilität.",
+      "schwierigkeitsgrad": "mittel",
+      "max_punkte": 4
+    },
+    {
+      "id": "REFA-G2-WW-008",
+      "bereich": "Warenwirtschaft & Kalkulation",
+      "frage": "Event: 50 Personen à 35 € Menü + 10 € Getränke. WE Menü 32%, WE Getränke 50%. Personal 8 € pro Person. Berechnen Sie Rohgewinn und Gewinnmarge.",
+      "frage_typ": "rechenaufgabe",
+      "richtige_antwort": "Rohgewinn: 1040 €, Marge: 46%",
+      "schwierigkeitsgrad": "mittel",
+      "loesungsschritte": "Umsatz: (50 × 35) + (50 × 10) = 1750 + 500 = 2250 €. WE: (50 × 35 × 0,32) + (50 × 10 × 0,5) = 560 + 250 = 810 €. Personal: 50 × 8 = 400 €. Rohgewinn: 2250 - 810 - 400 = 1040 €. Marge: 1040/2250 = 46%",
+      "max_punkte": 5
+    },
+    {
+      "id": "REFA-G2-WS-001",
+      "bereich": "Wirtschafts- und Sozialkunde",
+      "frage": "Welches Gesetz regelt die Berufsausbildung in Deutschland?",
+      "frage_typ": "single_choice",
+      "optionen": [
+        "A) Berufsbildungsgesetz (BBiG)",
+        "B) Arbeitsschutzgesetz",
+        "C) Tarifvertragsgesetz",
+        "D) Mindestlohngesetz"
+      ],
+      "richtige_antwort": "A",
+      "hinweise": "Das BBiG ist Grundlage für alle Ausbildungsordnungen.",
+      "schwierigkeitsgrad": "leicht"
+    },
+    {
+      "id": "REFA-G2-WS-002",
+      "bereich": "Wirtschafts- und Sozialkunde",
+      "frage": "Was ist ein Tarifvertrag?",
+      "frage_typ": "single_choice",
+      "optionen": [
+        "A) Ein Preisplan im Restaurant",
+        "B) Eine schriftliche Vereinbarung zwischen Arbeitgeberverbänden und Gewerkschaften",
+        "C) Ein Arbeitsvertrag",
+        "D) Eine Betriebsordnung"
+      ],
+      "richtige_antwort": "B",
+      "hinweise": "Tarifverträge regeln Löhne, Arbeitszeiten, Urlaub.",
+      "schwierigkeitsgrad": "leicht"
+    },
+    {
+      "id": "REFA-G2-WS-003",
+      "bereich": "Wirtschafts- und Sozialkunde",
+      "frage": "Welche Rechte haben Arbeitnehmer?",
+      "frage_typ": "multiple_choice",
+      "optionen": [
+        "A) Recht auf angemessene Entlohnung",
+        "B) Recht auf Pausen und Ruhezeiten",
+        "C) Recht auf Arbeitssicherheit",
+        "D) Recht auf Kündigung ohne Grund"
+      ],
+      "richtige_antworten": [
+        "A",
+        "B",
+        "C"
+      ],
+      "hinweise": "Arbeitnehmerrechte sind gesetzlich geschützt.",
+      "schwierigkeitsgrad": "mittel"
+    },
+    {
+      "id": "REFA-G2-WS-004",
+      "bereich": "Wirtschafts- und Sozialkunde",
+      "frage": "Nennen Sie vier Bereiche des Arbeitsschutzes in Gastronomiebetrieben.",
+      "frage_typ": "offen_kurz",
+      "hinweise": "z.B. Arbeitszeitregelungen, Sicherheit am Arbeitsplatz, Hygienevorschriften, Brandschutz, Persönliche Schutzausrüstung.",
+      "schwierigkeitsgrad": "mittel",
+      "max_punkte": 4
+    },
+    {
+      "id": "REFA-G2-WS-005",
+      "bereich": "Wirtschafts- und Sozialkunde",
+      "frage": "Was ist ‚Kündigungsschutz'?",
+      "frage_typ": "single_choice",
+      "optionen": [
+        "A) Schutz durch die Kündigung",
+        "B) Gesetzliche Regelungen, die Arbeitnehmer vor willkürlicher Entlassung schützen",
+        "C) Ein Versicherungsprodukt",
+        "D) Eine Betriebsvereinbarung"
+      ],
+      "richtige_antwort": "B",
+      "hinweise": "z.B. Mutterschutz, Betriebsräte sind geschützt.",
+      "schwierigkeitsgrad": "mittel"
+    },
+    {
+      "id": "REFA-G2-WS-006",
+      "bereich": "Wirtschafts- und Sozialkunde",
+      "frage": "Wie heißt die Arbeitnehmervertretung in Betrieben?",
+      "frage_typ": "single_choice",
+      "optionen": [
+        "A) Geschäftsführung",
+        "B) Betriebsrat",
+        "C) Personalleitung",
+        "D) Arbeitgeberverband"
+      ],
+      "richtige_antwort": "B",
+      "hinweise": "Der Betriebsrat vertreten Arbeitnehmerinteressen.",
+      "schwierigkeitsgrad": "leicht"
+    },
+    {
+      "id": "REFA-G2-WS-007",
+      "bereich": "Wirtschafts- und Sozialkunde",
+      "frage": "Was ist ‚Nachhaltigkeit' in der Gastronomie? Nennen Sie zwei Beispiele.",
+      "frage_typ": "offen_kurz",
+      "hinweise": "Verantwortungsvoller Umgang mit Ressourcen. z.B. Reduktion von Lebensmittelverschwendung, regionale/saisonale Produkte, Energieeffizienz.",
+      "schwierigkeitsgrad": "mittel",
+      "max_punkte": 3
+    }
+  ]
+}

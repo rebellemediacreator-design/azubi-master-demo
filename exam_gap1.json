@@ -1,0 +1,284 @@
+{
+  "meta": {
+    "beruf": "REFA (Fachmann/Fachfrau für Restaurants und Veranstaltungsgastronomie)",
+    "pruefungsteil": "GAP 1 (Gestreckte Abschlussprüfung Teil 1)",
+    "pruefungsbereich": "Zubereiten von einfachen Speisen und Gerichten + Servicebasics",
+    "dauer": "5 Stunden (60 Min schriftlich + 240 Min praktisch)",
+    "gewichtung": "25% der Gesamtnote",
+    "fragen_gesamt": 30,
+    "kategorien": [
+      "Technologie/Küche",
+      "Hygiene",
+      "Warenkunde",
+      "Warenwirtschaft",
+      "Service Grundlagen",
+      "Kalkulation"
+    ]
+  },
+  "fragen": [
+    {
+      "id": "REFA-G1-TK-001",
+      "bereich": "Technologie/Küche",
+      "frage": "Welche Gartemperatur ist für das Dünsten von zartem Gemüse ideal?",
+      "frage_typ": "single_choice",
+      "optionen": [
+        "A) 180 °C",
+        "B) 100 °C mit wenig Flüssigkeit",
+        "C) 50 °C",
+        "D) 150 °C"
+      ],
+      "richtige_antwort": "B",
+      "hinweise": "Dünsten mit Wasserdampf unter Deckel bei unter 100 °C ist schonend.",
+      "schwierigkeitsgrad": "leicht"
+    },
+    {
+      "id": "REFA-G1-HY-002",
+      "bereich": "Hygiene",
+      "frage": "Welche Aussagen zur Personalhygiene in der Gastronomie sind RICHTIG?",
+      "frage_typ": "multiple_choice",
+      "optionen": [
+        "A) Lange Haare müssen zusammengebunden oder bedeckt werden.",
+        "B) Hände müssen vor der Arbeit, nach Toilettengang und nach Kontakt mit rohmen Lebensmitteln gewaschen werden.",
+        "C) Schmuck ist erlaubt, wenn es sauber ist.",
+        "D) Bei Wunden an den Händen müssen wasserdichte Pflaster und Handschuhe getragen werden."
+      ],
+      "richtige_antworten": [
+        "A",
+        "B",
+        "D"
+      ],
+      "hinweise": "Personalhygiene ist zentral für Lebensmittelsicherheit.",
+      "schwierigkeitsgrad": "leicht"
+    },
+    {
+      "id": "REFA-G1-WA-003",
+      "bereich": "Warenkunde",
+      "frage": "Welche Merkmale sprechen für frisches Gemüse?",
+      "frage_typ": "single_choice",
+      "optionen": [
+        "A) Welke, schlaffe Oberfläche",
+        "B) Glänzende, straffe Haut und intensives Aroma",
+        "C) Matte Färbung",
+        "D) Leichter fauliger Geruch"
+      ],
+      "richtige_antwort": "B",
+      "hinweise": "Frisches Gemüse hat Glanz, Festigkeit und kräftige Farbe.",
+      "schwierigkeitsgrad": "leicht"
+    },
+    {
+      "id": "REFA-G1-SV-004",
+      "bereich": "Service Grundlagen",
+      "frage": "In welcher Reihenfolge wird beim klassischen Service serviert und abgeräumt?",
+      "frage_typ": "single_choice",
+      "optionen": [
+        "A) Von rechts servieren, von rechts abräumen",
+        "B) Von links servieren, von links abräumen",
+        "C) Von rechts servieren, von links abräumen",
+        "D) Von links servieren, von rechts abräumen"
+      ],
+      "richtige_antwort": "C",
+      "hinweise": "Classic Service: Speisen von rechts, Abräumen von links.",
+      "schwierigkeitsgrad": "leicht"
+    },
+    {
+      "id": "REFA-G1-WW-005",
+      "bereich": "Warenwirtschaft",
+      "frage": "Sie erhalten 6 kg Kartoffeln. Der Putz- und Zuschnittverlust beträgt 15 %. Wie viel kg Nutzgewicht stehen zur Verfügung?",
+      "frage_typ": "rechenaufgabe",
+      "richtige_antwort": 5.1,
+      "schwierigkeitsgrad": "mittel",
+      "loesungsschritte": "Nutzgewicht = 6 kg × (100 % - 15 %) = 6 kg × 0,85 = 5,1 kg",
+      "einheit": "kg"
+    },
+    {
+      "id": "REFA-G1-SV-006",
+      "bereich": "Service Grundlagen",
+      "frage": "Erklären Sie den Unterschied zwischen Tischservice und Plattenbedienung.",
+      "frage_typ": "offen_kurz",
+      "hinweise": "Tischservice: Servicepersonal portioniert von links oder rechts am Gasttisch. Plattenbedienung: große Platten werden vom Personal herumgereicht und portioniert.",
+      "schwierigkeitsgrad": "mittel",
+      "max_punkte": 3
+    },
+    {
+      "id": "REFA-G1-HY-007",
+      "bereich": "Hygiene",
+      "frage": "Bei welcher Kerntemperatur und Dauer werden Salmonellen zuverlässig abgetötet?",
+      "frage_typ": "single_choice",
+      "optionen": [
+        "A) 50 °C für 30 Minuten",
+        "B) 60 °C für 10 Minuten",
+        "C) 70 °C für 10 Minuten",
+        "D) 80 °C für 5 Minuten"
+      ],
+      "richtige_antwort": "C",
+      "hinweise": "Dies ist eine kritische Kontrolle im HACCP-System.",
+      "schwierigkeitsgrad": "mittel"
+    },
+    {
+      "id": "REFA-G1-TK-008",
+      "bereich": "Technologie/Küche",
+      "frage": "Nennen Sie drei Garverfahren, die besonders fettarm sind, und je ein Beispielgericht.",
+      "frage_typ": "offen_kurz",
+      "hinweise": "z.B. Dünsten (Gemüse), Dampfgaren (Fisch), Blanchieren (Kartoffeln), Grillen (Fleisch).",
+      "schwierigkeitsgrad": "mittel",
+      "max_punkte": 3
+    },
+    {
+      "id": "REFA-G1-KA-009",
+      "bereich": "Kalkulation",
+      "frage": "Ein Servicegericht kostet 3,20 € Wareneinsatz. Der Kalkulationsfaktor ist 3,5. Berechnen Sie den Verkaufspreis (auf 10 Cent runden).",
+      "frage_typ": "rechenaufgabe",
+      "richtige_antwort": 11.2,
+      "schwierigkeitsgrad": "mittel",
+      "loesungsschritte": "VK = 3,20 € × 3,5 = 11,20 €",
+      "einheit": "€"
+    },
+    {
+      "id": "REFA-G1-WA-010",
+      "bereich": "Warenkunde",
+      "frage": "Bei welcher Temperatur sollten leicht verderbliche Lebensmittel gelagert werden?",
+      "frage_typ": "single_choice",
+      "optionen": [
+        "A) 10-15 °C",
+        "B) 5-7 °C",
+        "C) 0-4 °C",
+        "D) 15-20 °C"
+      ],
+      "richtige_antwort": "B",
+      "hinweise": "Standard-Kühlschranktemperatur für Restaurantbetrieb.",
+      "schwierigkeitsgrad": "leicht"
+    },
+    {
+      "id": "REFA-G1-SV-011",
+      "bereich": "Service Grundlagen",
+      "frage": "Was versteht man unter ‚Eindecken'?",
+      "frage_typ": "single_choice",
+      "optionen": [
+        "A) Das Abräumen von Tellern",
+        "B) Die Vorbereitung eines Gasttisches mit Besteck, Gläsern und Servietten",
+        "C) Das Servieren von Speisen",
+        "D) Das Überprüfen der Hygiene"
+      ],
+      "richtige_antwort": "B",
+      "hinweise": "Eindecken nach Serviceform und Anlass durchführen.",
+      "schwierigkeitsgrad": "leicht"
+    },
+    {
+      "id": "REFA-G1-WW-012",
+      "bereich": "Warenwirtschaft",
+      "frage": "Erklären Sie das FIFO-Prinzip in der Lagerhaltung.",
+      "frage_typ": "offen_kurz",
+      "hinweise": "FIFO = First In, First Out. Zuerst eingelagerte Ware wird zuerst verwendet, um Verderb zu vermeiden.",
+      "schwierigkeitsgrad": "leicht",
+      "max_punkte": 2
+    },
+    {
+      "id": "REFA-G1-TK-013",
+      "bereich": "Technologie/Küche",
+      "frage": "Welche Schneidetechnik wird für 5 × 5 × 50 mm große Stäbchen verwendet?",
+      "frage_typ": "single_choice",
+      "optionen": [
+        "A) Brunoise",
+        "B) Julienne",
+        "C) Chiffonade",
+        "D) Brunette"
+      ],
+      "richtige_antwort": "B",
+      "hinweise": "Julienne ist die Streichholzform.",
+      "schwierigkeitsgrad": "mittel"
+    },
+    {
+      "id": "REFA-G1-HY-014",
+      "bereich": "Hygiene",
+      "frage": "Welche Maßnahmen gehören zur Betriebshygiene?",
+      "frage_typ": "multiple_choice",
+      "optionen": [
+        "A) Getrennte Schneidebretter für Fleisch und Gemüse",
+        "B) Regelmäßige Reinigung und Wartung der Geräte",
+        "C) Tägliche Reinigung der Kühlgeräte",
+        "D) Jährliche Hygiene-Unterweisungen"
+      ],
+      "richtige_antworten": [
+        "A",
+        "B",
+        "C",
+        "D"
+      ],
+      "hinweise": "Alle Maßnahmen sind Teil der umfassenden Betriebshygiene.",
+      "schwierigkeitsgrad": "mittel"
+    },
+    {
+      "id": "REFA-G1-SV-015",
+      "bereich": "Service Grundlagen",
+      "frage": "Beschreiben Sie die Besteckreihenfolge beim Eindecken für ein 3-gängiges Menü.",
+      "frage_typ": "offen_kurz",
+      "hinweise": "Von außen nach innen: Fischbesteck, Hauptbesteck (Messer rechts, Gabel links), Dessertbesteck oben über dem Teller.",
+      "schwierigkeitsgrad": "mittel",
+      "max_punkte": 3
+    },
+    {
+      "id": "REFA-G1-WA-016",
+      "bereich": "Warenkunde",
+      "frage": "Wie erkennt man verdorbenes Fleisch?",
+      "frage_typ": "single_choice",
+      "optionen": [
+        "A) Helles Rot und starker Geruch",
+        "B) Grau-grüne Verfärbungen, fauliger Geruch, klebrig",
+        "C) Intensiver Eigengeruch",
+        "D) Sehr dunkle Färbung"
+      ],
+      "richtige_antwort": "B",
+      "hinweise": "Verderb zeigt sich durch Verfärbung und Fäulnisgeruch.",
+      "schwierigkeitsgrad": "leicht"
+    },
+    {
+      "id": "REFA-G1-WW-017",
+      "bereich": "Warenwirtschaft",
+      "frage": "Ein Menü wird für 28,50 € verkauft. Der Wareneinsatz liegt bei 32 %. Wie hoch ist der Wareneinsatz in Euro?",
+      "frage_typ": "rechenaufgabe",
+      "richtige_antwort": 9.12,
+      "schwierigkeitsgrad": "mittel",
+      "loesungsschritte": "WE = 28,50 € × 0,32 = 9,12 €",
+      "einheit": "€"
+    },
+    {
+      "id": "REFA-G1-TK-018",
+      "bereich": "Technologie/Küche",
+      "frage": "Welches Garverfahren eignet sich am besten für zartes Hähnchenfleisch?",
+      "frage_typ": "single_choice",
+      "optionen": [
+        "A) Frittieren",
+        "B) Braten oder Schmoren",
+        "C) 2 Stunden Kochen",
+        "D) Grillen bei hoher Temperatur"
+      ],
+      "richtige_antwort": "B",
+      "hinweise": "Braten versiegelt die Oberfläche, Schmoren hält das Fleisch saftig.",
+      "schwierigkeitsgrad": "mittel"
+    },
+    {
+      "id": "REFA-G1-SV-019",
+      "bereich": "Service Grundlagen",
+      "frage": "Was sind die Hauptaufgaben beim Check-in eines Gastes im Servicebereich?",
+      "frage_typ": "offen_kurz",
+      "hinweise": "Gastfreundlicher Empfang, Gast zum Tisch führen, Eindeckung prüfen, Getränkewunsch abfragen, Speisekarte überreichen.",
+      "schwierigkeitsgrad": "leicht",
+      "max_punkte": 3
+    },
+    {
+      "id": "REFA-G1-HY-020",
+      "bereich": "Hygiene",
+      "frage": "Welche Lebensmittel müssen IMMER gekühlt werden?",
+      "frage_typ": "single_choice",
+      "optionen": [
+        "A) Kartoffeln",
+        "B) Zwiebeln",
+        "C) Rohe Eier und Fleisch",
+        "D) Mehl"
+      ],
+      "richtige_antwort": "C",
+      "hinweise": "Hochperishable Items erfordern konstante Kühlung.",
+      "schwierigkeitsgrad": "leicht"
+    }
+  ]
+}
