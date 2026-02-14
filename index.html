@@ -3,447 +3,102 @@
 <head>
   <meta charset="utf-8" />
   <meta name="viewport" content="width=device-width,initial-scale=1" />
-  <title>Azubi Master – Ausbildung im Betrieb. Offline. Kontrollierbar.</title>
-  <meta name="description" content="Azubi Master: digitales Berichtsheft + Prüfungssimulator (AP1/AP2) + Wissenssystem – offline-fähig, exportierbar, betrieblich kontrollierbar. Für Hotellerie, Bäckereien, Gastro & Bildungsträger." />
-  <meta name="theme-color" content="#0a0f1e" />
+  <title>Mise-Rebel – Digitale Ausbildungsstruktur</title>
+  <meta name="description" content="Mise-Rebel: Digitale Ausbildungsstruktur für IHK, Hotellerie und Bäckereien. Berichtsheft, Warenkunde, Glossar, AP1/AP2 Simulator & KI-Lernhilfe." />
+
+  <!-- Google Font Allura -->
+  <link href="https://fonts.googleapis.com/css2?family=Allura&display=swap" rel="stylesheet">
+
   <link rel="stylesheet" href="styles.css" />
 </head>
 
 <body>
-  <header class="topbar" id="top">
-    <div class="wrap topbar__inner">
-      <div class="brand">
-        <div class="brand__mark">🖤</div>
-        <div class="brand__txt">
-          <div class="brand__name">Azubi Master</div>
-          <div class="brand__sub">Betrieblich kontrollierbares Ausbildungssystem</div>
-        </div>
+
+<header class="topbar">
+  <div class="wrap topbar__inner">
+    <div class="brand">
+      <div class="brand__mark">🖤</div>
+      <div class="brand__text">
+        <div class="brand__name">Mise-Rebel</div>
+        <div class="brand__sub">Digitale Ausbildungsstruktur – IHK-ready</div>
       </div>
-
-      <nav class="nav" aria-label="Navigation">
-        <a href="#problem">Problem</a>
-        <a href="#loesung">Lösung</a>
-        <a href="#module">Module</a>
-        <a href="#branchen">Branchen</a>
-        <a href="#vergleich">Vergleich</a>
-        <a href="#pilot" class="nav__cta">Pilot starten</a>
-      </nav>
-
-      <button class="burger" type="button" aria-label="Menü öffnen" aria-expanded="false" aria-controls="mnav">
-        <span></span><span></span><span></span>
-      </button>
-    </div>
-
-    <div class="mnav wrap" id="mnav" hidden>
-      <a href="#problem">Problem</a>
-      <a href="#loesung">Lösung</a>
-      <a href="#module">Module</a>
-      <a href="#branchen">Branchen</a>
-      <a href="#vergleich">Vergleich</a>
-      <a href="#pilot">Pilot starten</a>
-    </div>
-  </header>
-
-  <main>
-    <!-- HERO -->
-    <section class="hero" id="loesung">
-      <div class="hero__bg"></div>
-      <div class="wrap hero__grid">
-        <div class="hero__copy">
-          <p class="pill">Hotellerie • Bäckereien • Gastro • Bildungsträger</p>
-          <h1>Ausbildung im Betrieb – <span class="glow">ohne Cloud-Zwang</span>, ohne Chaos, ohne Abo-Falle.</h1>
-          <p class="lead">
-            Azubi Master verbindet <strong>Berichtsheft</strong>, <strong>Wissenssystem</strong> und <strong>Prüfungssimulation (AP1/AP2)</strong>
-            in einem browserbasierten System – <strong>offline-fähig</strong>, <strong>exportierbar</strong> und <strong>betrieblich kontrollierbar</strong>.
-          </p>
-
-          <div class="kpis">
-            <div class="kpi">
-              <div class="kpi__k">Ziel</div>
-              <div class="kpi__v">Nachweis + Prüfungssicherheit</div>
-            </div>
-            <div class="kpi">
-              <div class="kpi__k">Technik</div>
-              <div class="kpi__v">Browser • Offline • Sync</div>
-            </div>
-            <div class="kpi">
-              <div class="kpi__k">Betrieb</div>
-              <div class="kpi__v">Kontrolle statt Plattform</div>
-            </div>
-          </div>
-
-          <div class="ctaRow">
-            <a class="btn btn--primary" href="#pilot">Pilot anfragen</a>
-            <a class="btn btn--ghost" href="#module">Module ansehen</a>
-          </div>
-
-          <div class="trust">
-            <div class="trust__item">✔ Export (Print/CSV/JSON)</div>
-            <div class="trust__item">✔ Offline-Queue + Sync sichtbar</div>
-            <div class="trust__item">✔ AP1/AP2 Simulation integriert</div>
-          </div>
-        </div>
-
-        <div class="hero__visual">
-          <div class="frame">
-            <div class="frame__top">
-              <div class="dots"><span></span><span></span><span></span></div>
-              <div class="frame__title">Ein Blick ins System</div>
-            </div>
-            <figure class="shot" data-lightbox="assets/1.png">
-              <img src="assets/1.png" alt="Azubi Master Login Screen" loading="eager">
-              <figcaption>Browser-Start: Login / Registrierung</figcaption>
-            </figure>
-          </div>
-        </div>
-      </div>
-    </section>
-
-    <!-- PROBLEM -->
-    <section class="section wrap" id="problem">
-      <div class="head">
-        <h2>Was in Betrieben wirklich schief läuft</h2>
-        <p class="muted">Das sind keine „Features“. Das sind Kostenfresser.</p>
-      </div>
-
-      <div class="cards3">
-        <article class="card">
-          <h3>1) Plattform-Zwang</h3>
-          <p>Wenn Ausbildung an eine externe Plattform gebunden ist, verlieren Betriebe Kontrolle: Rollen, Daten, Zugriff, Prozesse.</p>
-        </article>
-        <article class="card">
-          <h3>2) Netz-Realität</h3>
-          <p>WLAN in Küche/Lager/Keller ist keine Garantie. Systeme ohne Offline-Logik produzieren Datenlücken und Stress.</p>
-        </article>
-        <article class="card">
-          <h3>3) Nachweis = Risiko</h3>
-          <p>Berichtshefte, Zeiten, Unterweisungen: Wenn’s unklar ist, kostet es Zeit, Nerven – und am Ende Prüfungserfolg.</p>
-        </article>
-      </div>
-
-      <div class="callout">
-        <strong>Azubi Master ist gebaut für Betriebspraxis.</strong>
-        Nicht für Pitch-Decks. Nicht für App-Store-Schönheitspreise.
-      </div>
-    </section>
-
-    <!-- VALUE / ONE-LINERS -->
-    <section class="section wrap">
-      <div class="head">
-        <h2>Was Sie einkaufen</h2>
-        <p class="muted">Ein System, das Ausbildung messbar und prüfungsnah macht – ohne Betrieb zu entmachten.</p>
-      </div>
-
-      <div class="valueGrid">
-        <div class="value">
-          <div class="value__k">Kontrolle</div>
-          <div class="value__v">Betrieb steuert Inhalte, Struktur, Nachweise</div>
-        </div>
-        <div class="value">
-          <div class="value__k">Stabilität</div>
-          <div class="value__v">Offline arbeiten, später synchronisieren</div>
-        </div>
-        <div class="value">
-          <div class="value__k">Prüfung</div>
-          <div class="value__v">AP1/AP2 Simulation + Schwächen-Training</div>
-        </div>
-        <div class="value">
-          <div class="value__k">Nachweis</div>
-          <div class="value__v">Export (Print/CSV/JSON) für Dokumentation</div>
-        </div>
-      </div>
-    </section>
-
-    <!-- MODULES -->
-    <section class="section wrap" id="module">
-      <div class="head">
-        <h2>Module – mit Nutzen, nicht mit Buzzwords</h2>
-        <p class="muted">Jeder Screen hat eine Aufgabe. Und die Aufgabe ist: Ausbildung im Betrieb stabil machen.</p>
-      </div>
-
-      <div class="moduleList">
-
-        <!-- Login -->
-        <article class="module">
-          <div class="module__media">
-            <figure class="shot" data-lightbox="assets/1.png">
-              <img src="assets/1.png" alt="Login" loading="lazy">
-              <figcaption>Login</figcaption>
-            </figure>
-          </div>
-          <div class="module__copy">
-            <h3>Login</h3>
-            <p><strong>Wozu?</strong> Klarer Einstieg ohne App-Store. Rollen und Zugänge bleiben betrieblich.</p>
-            <p><strong>Nutzen:</strong> Sofort startklar, weniger IT-Abhängigkeit, weniger Onboarding-Reibung.</p>
-          </div>
-        </article>
-
-        <!-- Registration -->
-        <article class="module">
-          <div class="module__media">
-            <figure class="shot" data-lightbox="assets/11.png">
-              <img src="assets/11.png" alt="Registrierung" loading="lazy">
-              <figcaption>Registrierung</figcaption>
-            </figure>
-          </div>
-          <div class="module__copy">
-            <h3>Registrierung (betriebsgebunden)</h3>
-            <p><strong>Wozu?</strong> Saubere Zuordnung: Azubi → Betrieb → Ausbildungsberuf.</p>
-            <p><strong>Nutzen:</strong> Verantwortlichkeiten sind klar, keine anonyme Nutzung, keine „Plattform-Accounts“.</p>
-          </div>
-        </article>
-
-        <!-- Herzstück: Berichtsheft (2 Screens) -->
-        <article class="module module--split">
-          <div class="module__media module__media--split">
-            <figure class="shot" data-lightbox="assets/1.png">
-              <img src="assets/1.png" alt="Berichtsheft Eingabe" loading="lazy">
-              <figcaption>Berichtsheft – Eingabe</figcaption>
-            </figure>
-            <figure class="shot" data-lightbox="assets/9.png">
-              <img src="assets/9.png" alt="Berichtsheft Übersicht" loading="lazy">
-              <figcaption>Berichtsheft – Übersicht & Export</figcaption>
-            </figure>
-          </div>
-          <div class="module__copy">
-            <h3>Das Herzstück: Berichtsheft</h3>
-            <p><strong>Wozu?</strong> Tages-/Wochenlogik, Zeiten, Unterweisungen, Berufsschule – nachvollziehbar dokumentiert.</p>
-            <p><strong>Nutzen:</strong> weniger Nacharbeit, weniger Diskussionen, mehr Prüfungssicherheit.</p>
-            <ul class="ticks">
-              <li>Export: Print / CSV / JSON</li>
-              <li>Struktur: Woche / Tag / Archiv</li>
-              <li>Praxis: Zeiten & Ausbildungsbezug</li>
-            </ul>
-          </div>
-        </article>
-
-        <!-- KI (3.png) -->
-        <article class="module">
-          <div class="module__media">
-            <figure class="shot" data-lightbox="assets/3.png">
-              <img src="assets/3.png" alt="KI Lernhilfe" loading="lazy">
-              <figcaption>KI-Lernhilfe</figcaption>
-            </figure>
-          </div>
-          <div class="module__copy">
-            <h3>KI-Lernhilfe (gezielt, nicht Hype)</h3>
-            <p><strong>Wozu?</strong> Fachfragen direkt klären, wenn’s im Alltag klemmt.</p>
-            <p><strong>Nutzen:</strong> weniger Suchen, mehr Verstehen – ohne Medienbruch.</p>
-          </div>
-        </article>
-
-        <!-- Glossar (7.png) -->
-        <article class="module">
-          <div class="module__media">
-            <figure class="shot" data-lightbox="assets/7.png">
-              <img src="assets/7.png" alt="Glossar" loading="lazy">
-              <figcaption>Glossar</figcaption>
-            </figure>
-          </div>
-          <div class="module__copy">
-            <h3>Glossar</h3>
-            <p><strong>Wozu?</strong> Begriffe, Techniken, Hygiene – schnell auffindbar, filterbar.</p>
-            <p><strong>Nutzen:</strong> weniger Rückfragen, weniger Unsicherheit, schnelleres Lernen.</p>
-          </div>
-        </article>
-
-        <!-- Lehrstoff (5.png) -->
-        <article class="module">
-          <div class="module__media">
-            <figure class="shot" data-lightbox="assets/5.png">
-              <img src="assets/5.png" alt="Lehrstoff" loading="lazy">
-              <figcaption>Lehrstoff</figcaption>
-            </figure>
-          </div>
-          <div class="module__copy">
-            <h3>Lehrstoff (Zuweisung durch Betrieb)</h3>
-            <p><strong>Wozu?</strong> Inhalte gezielt freigeben statt „PDF-Wildwuchs“.</p>
-            <p><strong>Nutzen:</strong> Ausbilder steuern Lernpfad, Azubis verzetteln sich nicht.</p>
-          </div>
-        </article>
-
-        <!-- Warenkunde (12.png) -->
-        <article class="module">
-          <div class="module__media">
-            <figure class="shot" data-lightbox="assets/12.png">
-              <img src="assets/12.png" alt="Warenkunde" loading="lazy">
-              <figcaption>Warenkunde</figcaption>
-            </figure>
-          </div>
-          <div class="module__copy">
-            <h3>Warenkunde (Saisonalität in der Praxis)</h3>
-            <p><strong>Wozu?</strong> Saisonlogik, Filter, Kategorien – schnell im Alltag nutzbar.</p>
-            <p><strong>Nutzen:</strong> bessere Menü-/Produktlogik, bessere Prüfungsvorbereitung, weniger „auswendig raten“.</p>
-          </div>
-        </article>
-
-        <!-- Quiz (13.png) -->
-        <article class="module">
-          <div class="module__media">
-            <figure class="shot" data-lightbox="assets/13.png">
-              <img src="assets/13.png" alt="Quiz" loading="lazy">
-              <figcaption>Quiz</figcaption>
-            </figure>
-          </div>
-          <div class="module__copy">
-            <h3>Quiz (Routine statt Panik)</h3>
-            <p><strong>Wozu?</strong> Kurze Lerneinheiten – wiederholbar, messbar.</p>
-            <p><strong>Nutzen:</strong> Wissen sitzt schneller, Azubi baut Sicherheit auf.</p>
-          </div>
-        </article>
-
-        <!-- AP1/AP2 (14.png) -->
-        <article class="module">
-          <div class="module__media">
-            <figure class="shot" data-lightbox="assets/14.png">
-              <img src="assets/14.png" alt="AP1 AP2 Simulator" loading="lazy">
-              <figcaption>AP1 / AP2 Prüfungssimulator</figcaption>
-            </figure>
-          </div>
-          <div class="module__copy">
-            <h3>AP1 / AP2 Prüfungssimulator</h3>
-            <p><strong>Wozu?</strong> Prüfungssituation simulieren: Zeit, Bestehensgrenze, Struktur.</p>
-            <p><strong>Nutzen:</strong> weniger Prüfungsstress, höhere Trefferquote, bessere Vorbereitung.</p>
-          </div>
-        </article>
-
-        <!-- Sync (2.png) -->
-        <article class="module">
-          <div class="module__media">
-            <figure class="shot" data-lightbox="assets/2.png">
-              <img src="assets/2.png" alt="Synchronisation und Offline-Queue" loading="lazy">
-              <figcaption>Synchronisation & Offline</figcaption>
-            </figure>
-          </div>
-          <div class="module__copy">
-            <h3>Synchronisation & Offline-Queue</h3>
-            <p><strong>Wozu?</strong> Änderungen offline sammeln und später synchronisieren – transparent.</p>
-            <p><strong>Nutzen:</strong> keine Datenlöcher trotz Funkloch; Betrieb sieht Status & Fehler.</p>
-          </div>
-        </article>
-
-      </div>
-    </section>
-
-    <!-- INDUSTRIES -->
-    <section class="section wrap" id="branchen">
-      <div class="head">
-        <h2>Warum das in Hotellerie, Bäckereien & Gastro funktioniert</h2>
-        <p class="muted">Weil es die Realität respektiert: Zeitdruck, Schichtbetrieb, Funklöcher, wechselnde Teams.</p>
-      </div>
-
-      <div class="cards3">
-        <article class="card">
-          <h3>Hotellerie</h3>
-          <p>Schichtbetrieb + wechselnde Ansprechpartner. Azubi Master hält Nachweise, Lernpfade und Prüfungstraining stabil.</p>
-          <ul class="miniticks">
-            <li>Berichtsheft ohne Nacharbeit</li>
-            <li>Prüfungssimulation im Rhythmus</li>
-            <li>Offline nutzbar im Backoffice</li>
-          </ul>
-        </article>
-        <article class="card">
-          <h3>Bäckereien</h3>
-          <p>Frühschichten, Produktion, Lager – WLAN ist oft „nice to have“. Offline-Queue + Sync ist kein Extra, sondern Pflicht.</p>
-          <ul class="miniticks">
-            <li>Dokumentation trotz Funkloch</li>
-            <li>Warenkunde & Saisonalität</li>
-            <li>Export für interne Ablage</li>
-          </ul>
-        </article>
-        <article class="card">
-          <h3>Gastro / Ausbildungsträger</h3>
-          <p>Viele Azubis, viele Betriebe, hoher Betreuungsaufwand. Das System reduziert Rückfragen und macht Fortschritt sichtbar.</p>
-          <ul class="miniticks">
-            <li>Glossar & KI-Lernhilfe</li>
-            <li>AP1/AP2 als Standard</li>
-            <li>Skalierbare Struktur</li>
-          </ul>
-        </article>
-      </div>
-    </section>
-
-    <!-- ARCHITEKTUR -->
-    <section class="section wrap">
-      <div class="head">
-        <h2>Architektur (für Entscheider)</h2>
-        <p class="muted">So sieht “kontrollierbar” technisch aus.</p>
-      </div>
-
-      <figure class="bigshot" data-lightbox="assets/architektur.png">
-        <img src="assets/architektur.png" alt="Architektur-Grafik" loading="lazy">
-        <figcaption>Architektur: Browser • Offline • Sync • Export • Betriebskontrolle</figcaption>
-      </figure>
-    </section>
-
-    <!-- VERGLEICH -->
-    <section class="section wrap" id="vergleich">
-      <div class="head">
-        <h2>Wettbewerbsvergleich</h2>
-        <p class="muted">Kein Marketing. Eine klare Abgrenzung.</p>
-      </div>
-
-      <figure class="bigshot" data-lightbox="assets/wettbewerb.png">
-        <img src="assets/wettbewerb.png" alt="Wettbewerbsvergleich" loading="lazy">
-        <figcaption>Azubi Master vs. Markt: Offline • Kontrolle • Prüfung • Export</figcaption>
-      </figure>
-
-      <div class="objectionGrid">
-        <div class="objection">
-          <h3>Einwand: „Wir nehmen die kostenlose Lösung.“</h3>
-          <p>
-            Kostenlos ist nicht kostenlos, wenn Sie dadurch <strong>Nacharbeit</strong>, <strong>Chaos</strong> und <strong>Prüfungsrisiko</strong>
-            einkaufen. Azubi Master spart Zeit durch Struktur + Export + Training – und reduziert Ausbilder-Aufwand.
-          </p>
-        </div>
-        <div class="objection">
-          <h3>Einwand: „Zu viel – ist das kompliziert?“</h3>
-          <p>
-            Nein. Weil es als System gedacht ist: Berichtsheft als Kern, Wissensmodule als Stütze,
-            AP1/AP2 als Routine. Und die Offline-Logik verhindert Datenlöcher.
-          </p>
-        </div>
-      </div>
-    </section>
-
-    <!-- PILOT CTA -->
-    <section class="section wrap" id="pilot">
-      <div class="final">
-        <h2>Pilot starten (ohne Theater)</h2>
-        <p class="muted">
-          Sie schicken 3 Infos: Branche, Anzahl Azubis, Region (DE/CH).  
-          Sie bekommen: Pilot-Setup + klare Einführung + Testlauf.
-        </p>
-
-        <div class="ctaRow">
-          <a class="btn btn--primary" href="mailto:rebelle.media.creator@gmail.com?subject=Azubi%20Master%20Pilot%20Anfrage&body=Branche:%0AAnzahl%20Azubis:%0ARegion%20(DE/CH):%0AWunsch:%20(Pilot%20/%20Demo%20/%20Lizenz)%0A">Pilot anfragen</a>
-          <a class="btn btn--ghost" href="#module">Zurück zu den Modulen</a>
-        </div>
-
-        <div class="brandfoot">
-          <div class="brandfoot__line">🖤RE:BELLE™ Media · The Art of Feeling. Amplified.</div>
-          <div class="brandfoot__links">
-            <a href="https://newwomanintheshop.com" target="_blank" rel="noopener">newwomanintheshop.com</a>
-            <span>·</span>
-            <a href="https://rebellemedia.de" target="_blank" rel="noopener">rebellemedia.de</a>
-            <span>·</span>
-            <a href="mailto:rebelle.media.creator@gmail.com">rebelle.media.creator@gmail.com</a>
-          </div>
-        </div>
-      </div>
-    </section>
-  </main>
-
-  <!-- Lightbox -->
-  <div class="lightbox" id="lightbox" aria-hidden="true">
-    <div class="lightbox__bg" data-close></div>
-    <div class="lightbox__panel" role="dialog" aria-modal="true" aria-label="Bild groß anzeigen">
-      <button class="lightbox__close" type="button" data-close aria-label="Schließen">×</button>
-      <img class="lightbox__img" alt="" />
-      <div class="lightbox__hint">ESC schließt • Klick außerhalb schließt</div>
     </div>
   </div>
+</header>
 
-  <script src="app.js"></script>
+<main>
+
+<section class="hero">
+  <div class="wrap hero__grid">
+    <div class="hero__copy">
+      <div class="pill">Für IHK · Hotellerie · Bäckereien · Gastronomie</div>
+
+      <h1>Mise-Rebel.<br><span class="accent">Struktur statt Chaos.</span></h1>
+
+      <p class="lead">
+        Ausbildung ist kein PDF. Kein Zettel. Kein „mach mal“.
+        Mise-Rebel bringt Struktur in Berichtsheft, Lernstoff,
+        Warenkunde und Prüfungsvorbereitung – so, dass Betrieb
+        und Azubi wirklich damit arbeiten.
+      </p>
+    </div>
+  </div>
+</section>
+
+<section class="section">
+  <div class="wrap">
+    <h2>Was das System löst</h2>
+
+    <div class="grid grid--3">
+      <div class="card">
+        <h3>Berichtsheft mit Struktur</h3>
+        <p>Kein Freitext-Chaos. Klar geführt. Schnell ausfüllbar.</p>
+      </div>
+      <div class="card">
+        <h3>Warenkunde & Saison</h3>
+        <p>Praxisnah für Küche & Bäckerei.</p>
+      </div>
+      <div class="card">
+        <h3>AP1 / AP2 Simulator</h3>
+        <p>Prüfung trainieren. Schwächen erkennen.</p>
+      </div>
+    </div>
+  </div>
+</section>
+
+<section class="section section--alt">
+  <div class="wrap final">
+    <h2>Fakten</h2>
+
+    <div class="facts">
+      <div class="fact"><b>Zielgruppe:</b> IHK-Ausbildung · Hotellerie · Bäckereien</div>
+      <div class="fact"><b>Module:</b> Berichtsheft · Glossar · Warenkunde · Lernstoff · Quiz · AP1/AP2</div>
+      <div class="fact"><b>Nutzen:</b> Weniger Rückfragen. Mehr Überblick. Sichtbarer Fortschritt.</div>
+      <div class="fact"><b>Optional:</b> KI-Lernhilfe für Fachfragen im Alltag</div>
+    </div>
+  </div>
+</section>
+
+</main>
+
+<footer class="footer">
+  <div class="wrap footer__inner">
+    <div class="footer__brand">
+      <div class="footer__name">🖤RE:BELLE™ Media</div>
+      <div class="footer__sub">The Art of Feeling. Amplified.</div>
+    </div>
+
+    <div class="footer__links">
+      <a href="https://newwomanintheshop.com" target="_blank">🖤 newwomanintheshop.com</a>
+      <a href="https://rebellemedia.de" target="_blank">🖤 rebellemedia.de</a>
+      <a href="mailto:rebelle.media.creator@gmail.com">🖤 rebelle.media.creator@gmail.com</a>
+    </div>
+
+    <div class="footer__signature">
+      by <span class="allura">Tina</span>
+    </div>
+  </div>
+</footer>
+
 </body>
 </html>
