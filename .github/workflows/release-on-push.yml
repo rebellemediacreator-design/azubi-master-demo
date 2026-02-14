@@ -1,0 +1,58 @@
+name: Build & Release (on push)
+
+on:
+  push:
+    branches:
+      - main
+
+permissions:
+  contents: write
+
+jobs:
+  build_release:
+    runs-on: ubuntu-latest
+
+    steps:
+      - name: Checkout
+        uses: actions/checkout@v4
+
+      - name: Setup Node
+        uses: actions/setup-node@v4
+        with:
+          node-version: "20"
+          cache: "npm"
+
+      - name: Install deps
+        run: npm ci
+
+      - name: Build
+        run: npm run build
+
+      - name: Verify build folder
+        run: |
+          if [ ! -d "dist" ]; then
+            echo "ERROR: Build folder 'dist' not found. Adjust workflow output folder."
+            ls -la
+            exit 1
+          fi
+
+      - name: Prepare OFFLINE_PAKET
+        run: |
+          rm -rf OFFLINE_PAKET
+          mkdir -p OFFLINE_PAKET
+          cp -r dist/* OFFLINE_PAKET/
+
+      - name: Create ZIP
+        run: |
+          ZIP_NAME="OFFLINE_PAKET_${GITHUB_SHA::7}.zip"
+          zip -r "$ZIP_NAME" OFFLINE_PAKET
+          echo "ZIP_NAME=$ZIP_NAME" >> $GITHUB_ENV
+
+      - name: Create Release (pre-release)
+        uses: softprops/action-gh-release@v2
+        with:
+          tag_name: "auto-${{ github.run_number }}"
+          name: "Auto Build #${{ github.run_number }}"
+          prerelease: true
+          generate_release_notes: true
+          files: "${{ env.ZIP_NAME }}"
