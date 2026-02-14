@@ -13,42 +13,43 @@ jobs:
     runs-on: ubuntu-latest
 
     steps:
-      - name: Checkout
+      - name: Checkout repository
         uses: actions/checkout@v4
 
-      - name: Setup Node
+      - name: Setup Node.js
         uses: actions/setup-node@v4
         with:
           node-version: "20"
-          cache: "npm"
 
-      - name: Install deps
-        run: npm ci
+      - name: Install dependencies
+        run: npm install
 
-      - name: Build
+      - name: Build project
         run: npm run build
 
-      - name: Verify build folder
+      - name: Verify build output folder (dist)
         run: |
           if [ ! -d "dist" ]; then
-            echo "ERROR: Build folder 'dist' not found. Adjust workflow output folder."
+            echo "ERROR: Build folder 'dist' not found."
+            echo "Your project might output to a different folder (e.g. build, out)."
+            echo "Repository root content:"
             ls -la
             exit 1
           fi
 
-      - name: Prepare OFFLINE_PAKET
+      - name: Prepare OFFLINE_PAKET folder
         run: |
           rm -rf OFFLINE_PAKET
           mkdir -p OFFLINE_PAKET
           cp -r dist/* OFFLINE_PAKET/
 
-      - name: Create ZIP
+      - name: Create ZIP from OFFLINE_PAKET
         run: |
           ZIP_NAME="OFFLINE_PAKET_${GITHUB_SHA::7}.zip"
           zip -r "$ZIP_NAME" OFFLINE_PAKET
           echo "ZIP_NAME=$ZIP_NAME" >> $GITHUB_ENV
 
-      - name: Create Release (pre-release)
+      - name: Create GitHub pre-release and upload ZIP
         uses: softprops/action-gh-release@v2
         with:
           tag_name: "auto-${{ github.run_number }}"
