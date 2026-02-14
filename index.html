@@ -2,103 +2,377 @@
 <html lang="de">
 <head>
   <meta charset="utf-8" />
-  <meta name="viewport" content="width=device-width,initial-scale=1" />
-  <title>Mise-Rebel – Digitale Ausbildungsstruktur</title>
-  <meta name="description" content="Mise-Rebel: Digitale Ausbildungsstruktur für IHK, Hotellerie und Bäckereien. Berichtsheft, Warenkunde, Glossar, AP1/AP2 Simulator & KI-Lernhilfe." />
+  <meta name="viewport" content="width=device-width, initial-scale=1" />
+  <title>Mise-Rebel – Erklär-Landingpage (IHK · Hotellerie · Bäckerei)</title>
+  <meta name="description" content="Mise-Rebel: Offline-fähiges Ausbildungs-System mit Berichtsheft, Glossar, Warenkunde, Lernstoff, Quiz, AP1/AP2 Simulator, KI-Lernhilfe, Sync & Status. Für IHK, Hotellerie und Bäckereien." />
 
-  <!-- Google Font Allura -->
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
   <link href="https://fonts.googleapis.com/css2?family=Allura&display=swap" rel="stylesheet">
 
   <link rel="stylesheet" href="styles.css" />
 </head>
 
 <body>
+  <header class="topbar">
+    <div class="wrap topbar__inner">
+      <div class="brand">
+        <div class="brand__mark">🖤</div>
+        <div class="brand__text">
+          <div class="brand__name">Mise-Rebel</div>
+          <div class="brand__sub">Erklär-Landingpage · Vertriebsfokus: IHK · Hotellerie · Bäckereien</div>
+        </div>
+      </div>
 
-<header class="topbar">
-  <div class="wrap topbar__inner">
-    <div class="brand">
-      <div class="brand__mark">🖤</div>
-      <div class="brand__text">
-        <div class="brand__name">Mise-Rebel</div>
-        <div class="brand__sub">Digitale Ausbildungsstruktur – IHK-ready</div>
+      <nav class="nav">
+        <a href="#system">System</a>
+        <a href="#screens">Screens</a>
+        <a href="#vergleich">Vergleich</a>
+        <a href="#architektur">Architektur</a>
+        <a href="#fakten">Fakten</a>
+      </nav>
+    </div>
+  </header>
+
+  <main>
+
+    <!-- HERO -->
+    <section class="hero">
+      <div class="wrap hero__grid">
+        <div class="hero__copy">
+          <div class="pill">Offline-fähig · Betrieblich kontrollierbar · Ausbildung sauber dokumentiert</div>
+
+          <h1>
+            Mise-Rebel.<br>
+            <span class="accent">Struktur lernen.</span> Regeln kennen.<br>
+            Und trotzdem eigen denken.
+          </h1>
+
+          <p class="lead">
+            Die meisten Ausbildungs-Tools sind Plattformen: Cloud, Accounts, Abos, Bindung.
+            Mise-Rebel geht den anderen Weg: <b>browserbasiert</b>, <b>offline nutzbar</b>, <b>betrieblich steuerbar</b>.
+            Damit Azubis arbeiten – und Ausbilder endlich Überblick haben.
+          </p>
+
+          <div class="hero__cta">
+            <a class="btn" href="#screens">Screens ansehen</a>
+            <a class="btn btn--ghost" href="#vergleich">Warum besser als “Standard-Lösungen”</a>
+          </div>
+
+          <div class="mini">
+            <div class="mini__item"><b>Ziel:</b> weniger Rückfragen, mehr Nachweisbarkeit, schnellere Prüfungsvorbereitung</div>
+            <div class="mini__item"><b>Für:</b> IHK-Betriebe, Hotels, Restaurants, Bäckereien, Bildungsträger</div>
+          </div>
+        </div>
+
+        <div class="hero__visual">
+          <div class="phone">
+            <div class="phone__bar"></div>
+            <img class="shot" src="assets/login.png" alt="Login Screen – Mise-Rebel / Azubi Master" data-lightbox="assets/login.png">
+          </div>
+          <div class="caption">
+            Einstieg: Login / Registrierung – danach direkt ins Berichtsheft, Lernstoff & Prüfung.
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- SYSTEM VALUE -->
+    <section class="section" id="system">
+      <div class="wrap">
+        <h2>Was das System im Betrieb wirklich löst</h2>
+        <p class="muted">
+          Nicht “nice to have”. Sondern die drei Baustellen, die Ausbildung täglich frisst: Dokumentation, Wissen, Prüfung.
+        </p>
+
+        <div class="cards">
+          <article class="card">
+            <h3>Berichtsheft, das geführt ist</h3>
+            <p>
+              Azubis bekommen klare Felder statt Text-Wüste. Inhalte werden schneller fertig – und sind ausbildbar,
+              nicht “irgendwas hingeschrieben”.
+            </p>
+          </article>
+
+          <article class="card">
+            <h3>Warenkunde & Glossar: Praxis statt Wikipedia</h3>
+            <p>
+              Schnell nachschlagen. Saison & Kategorien sehen. Begriffe verstehen – ohne dass der Ausbilder alles 10× erklären muss.
+            </p>
+          </article>
+
+          <article class="card">
+            <h3>AP1/AP2 Simulator: Leistung wird messbar</h3>
+            <p>
+              Prüfung ist kein Gefühl. Der Simulator macht sichtbar: Was sitzt – und wo’s knallt. Genau da wird trainiert.
+            </p>
+          </article>
+
+          <article class="card">
+            <h3>KI-Lernhilfe (kontrolliert)</h3>
+            <p>
+              Für Fachfragen im Alltag – ohne daraus Berichtshefte zu “schreiben”. Lernhilfe ja. Dokumenten-Fake nein.
+            </p>
+          </article>
+
+          <article class="card">
+            <h3>Synchronisation & Offline-Logik</h3>
+            <p>
+              Wenn’s offline läuft, muss Sync sitzen. Das System zeigt Status, Warteschlange und kann Support-Exports erzeugen.
+            </p>
+          </article>
+
+          <article class="card">
+            <h3>Für Hotellerie & Bäckereien skalierbar</h3>
+            <p>
+              Gleiche Logik, andere Inhalte/Module. Ausbildung wird standardisiert – ohne die Realität im Betrieb zu ignorieren.
+            </p>
+          </article>
+        </div>
+      </div>
+    </section>
+
+    <!-- SCREENS -->
+    <section class="section section--alt" id="screens">
+      <div class="wrap">
+        <h2>Die Screens – so fühlt sich Mise-Rebel im Alltag an</h2>
+        <p class="muted">
+          Alle Screens sind echte Ansichten. Klick auf ein Bild → groß ansehen.
+        </p>
+
+        <div class="screen-grid">
+          <figure class="screen">
+            <div class="screen__frame">
+              <img class="shot" src="assets/login.png" alt="Screen: Login" data-lightbox="assets/login.png">
+            </div>
+            <figcaption>
+              <b>1) Login</b><br>
+              Einstieg ohne Schnickschnack. Azubi rein – System arbeitet.
+            </figcaption>
+          </figure>
+
+          <figure class="screen">
+            <div class="screen__frame">
+              <img class="shot" src="assets/registrierung.png" alt="Screen: Registrierung" data-lightbox="assets/registrierung.png">
+            </div>
+            <figcaption>
+              <b>2) Registrierung</b><br>
+              Profil + Ausbildung auswählen. Sauber, geführt, keine Stolperfallen.
+            </figcaption>
+          </figure>
+
+          <figure class="screen screen--wide">
+            <div class="screen__frame">
+              <img class="shot" src="assets/berichtsheft_oben.png" alt="Screen: Berichtsheft – Übersicht (oben)" data-lightbox="assets/berichtsheft_oben.png">
+            </div>
+            <figcaption>
+              <b>3) Berichtsheft – Übersicht (oben)</b><br>
+              Woche/Tag, Export-Optionen (Print/CSV/JSON). Dokumentation wird praktisch.
+            </figcaption>
+          </figure>
+
+          <figure class="screen screen--wide">
+            <div class="screen__frame">
+              <img class="shot" src="assets/berichtsheft_unten.png" alt="Screen: Berichtsheft – Eingabe (unten)" data-lightbox="assets/berichtsheft_unten.png">
+            </div>
+            <figcaption>
+              <b>4) Berichtsheft – Eingabe (unten)</b><br>
+              Geführte Felder, Zeiten/Pausen, Unterschrift, Speichern. Kein Chaos, kein Ratespiel.
+            </figcaption>
+          </figure>
+
+          <figure class="screen">
+            <div class="screen__frame">
+              <img class="shot" src="assets/glossar.png" alt="Screen: Glossar" data-lightbox="assets/glossar.png">
+            </div>
+            <figcaption>
+              <b>5) Glossar</b><br>
+              Begriffe + Filter. Azubi schlägt nach statt zu raten.
+            </figcaption>
+          </figure>
+
+          <figure class="screen">
+            <div class="screen__frame">
+              <img class="shot" src="assets/lehrstoff.png" alt="Screen: Lehrstoff" data-lightbox="assets/lehrstoff.png">
+            </div>
+            <figcaption>
+              <b>6) Lehrstoff</b><br>
+              Inhalte zuweisen/sehen – zentral steuerbar, ohne Overload.
+            </figcaption>
+          </figure>
+
+          <figure class="screen">
+            <div class="screen__frame">
+              <img class="shot" src="assets/warenkunde.png" alt="Screen: Warenkunde" data-lightbox="assets/warenkunde.png">
+            </div>
+            <figcaption>
+              <b>7) Warenkunde</b><br>
+              Saison & Kategorien: Obst/Gemüse/Kräuter – praxisnah, schnell.
+            </figcaption>
+          </figure>
+
+          <figure class="screen">
+            <div class="screen__frame">
+              <img class="shot" src="assets/quiz.png" alt="Screen: Quiz" data-lightbox="assets/quiz.png">
+            </div>
+            <figcaption>
+              <b>8) Quiz</b><br>
+              Wiederholen ohne Langeweile – kurze Einheiten, sauberer Fortschritt.
+            </figcaption>
+          </figure>
+
+          <figure class="screen screen--wide">
+            <div class="screen__frame">
+              <img class="shot" src="assets/ap_simulator.png" alt="Screen: AP1/AP2 Prüfungssimulator" data-lightbox="assets/ap_simulator.png">
+            </div>
+            <figcaption>
+              <b>9) AP1 / AP2 Prüfungssimulator</b><br>
+              Prüfungsmodus + Schwächen-Training. Leistung wird sichtbar.
+            </figcaption>
+          </figure>
+
+          <figure class="screen">
+            <div class="screen__frame">
+              <img class="shot" src="assets/ki_hilfe.png" alt="Screen: KI-Lernhilfe" data-lightbox="assets/ki_hilfe.png">
+            </div>
+            <figcaption>
+              <b>10) KI-Lernhilfe</b><br>
+              Fachfragen im Alltag. Lernhilfe – keine Berichtsheft-Fälschung.
+            </figcaption>
+          </figure>
+
+          <figure class="screen">
+            <div class="screen__frame">
+              <img class="shot" src="assets/sync.png" alt="Screen: Synchronisation" data-lightbox="assets/sync.png">
+            </div>
+            <figcaption>
+              <b>11) Sync</b><br>
+              Offline-Änderungen, Warteschlange, Support-Export. Betriebssicher.
+            </figcaption>
+          </figure>
+
+          <figure class="screen">
+            <div class="screen__frame">
+              <img class="shot" src="assets/info_status.png" alt="Screen: Info & Status" data-lightbox="assets/info_status.png">
+            </div>
+            <figcaption>
+              <b>12) Info & Status</b><br>
+              Version/Build, Verbindung, letzte Sync, Kontakt. Transparenz statt Rätsel.
+            </figcaption>
+          </figure>
+        </div>
+      </div>
+    </section>
+
+    <!-- VERGLEICH -->
+    <section class="section" id="vergleich">
+      <div class="wrap">
+        <h2>Wettbewerbsvergleich (kurz, brutal ehrlich)</h2>
+        <p class="muted">
+          Viele Lösungen verkaufen “Digitalisierung” – und liefern Bindung. Mise-Rebel liefert Kontrolle.
+        </p>
+
+        <div class="compare">
+          <div class="compare__media">
+            <div class="media-card">
+              <img class="shot" src="assets/wettbewerb.png" alt="Wettbewerbsvergleich – Mise-Rebel vs. gängige Lösungen" data-lightbox="assets/wettbewerb.png">
+            </div>
+          </div>
+
+          <div class="compare__text">
+            <ul class="bullets">
+              <li><b>Kein App-Store-Zwang</b> – Browser reicht.</li>
+              <li><b>Offline nutzbar</b> – Ausbildung stoppt nicht bei schlechtem WLAN.</li>
+              <li><b>Kontrollierbar im Betrieb</b> – Daten & Prozess bleiben im Unternehmen.</li>
+              <li><b>Prüfung messbar</b> – Simulator statt Bauchgefühl.</li>
+              <li><b>Für Hotellerie/Bäckerei übertragbar</b> – gleiche Struktur, andere Inhalte.</li>
+            </ul>
+
+            <div class="note">
+              Wenn ein Betrieb “eigentlich die kostenlose IHK-Version” nutzen will:
+              okay. Dann muss er aber auch mit <b>Limitierungen, Bindung</b> und <b>wenig Anpassbarkeit</b> leben.
+              Mise-Rebel ist für Betriebe, die Ausbildung ernst nehmen – und sie steuern wollen.
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- ARCHITEKTUR -->
+    <section class="section section--alt" id="architektur">
+      <div class="wrap">
+        <h2>Architektur (damit IT/Leitung sofort versteht, was das ist)</h2>
+        <p class="muted">
+          Diese Grafik ist der “Aha-Moment” für Entscheider: was läuft wo, was bleibt im Betrieb, was passiert beim Sync.
+        </p>
+
+        <div class="media-card media-card--wide">
+          <img class="shot" src="assets/architektur.png" alt="Architektur-Grafik – Mise-Rebel Systemübersicht" data-lightbox="assets/architektur.png">
+        </div>
+      </div>
+    </section>
+
+    <!-- FAKTEN -->
+    <section class="section" id="fakten">
+      <div class="wrap facts">
+        <h2>Ein paar harte Fakten (für Entscheider)</h2>
+
+        <div class="facts__grid">
+          <div class="fact">
+            <b>Zielgruppen</b>
+            <p>IHK-Betriebe · Hotellerie · Gastronomie · Bäckereien · Bildungsträger</p>
+          </div>
+
+          <div class="fact">
+            <b>Module</b>
+            <p>Berichtsheft · Glossar · Lehrstoff · Warenkunde · Quiz · AP1/AP2 Simulator · KI-Hilfe · Sync · Status</p>
+          </div>
+
+          <div class="fact">
+            <b>Mehrwert</b>
+            <p>Weniger Rückfragen · bessere Dokumentation · klarer Lernfortschritt · prüfungsnahes Training</p>
+          </div>
+
+          <div class="fact">
+            <b>Betriebssicherheit</b>
+            <p>Offline-Logik + Sync-Status + Support-Export – damit es im Alltag nicht “irgendwann mal” kaputt ist.</p>
+          </div>
+        </div>
+
+        <div class="closing">
+          <div class="closing__title">Mise-Rebel ist kein “Tool”.</div>
+          <div class="closing__text">Es ist die Struktur, die Ausbildung wieder führbar macht – ohne Theater. 🖤</div>
+        </div>
+      </div>
+    </section>
+
+  </main>
+
+  <!-- LIGHTBOX -->
+  <div class="lightbox" id="lightbox" aria-hidden="true">
+    <button class="lightbox__close" id="lbClose" aria-label="Schließen">×</button>
+    <img class="lightbox__img" id="lbImg" alt="">
+  </div>
+
+  <footer class="footer">
+    <div class="wrap footer__inner">
+      <div class="footer__block">
+        <div class="footer__name">🖤RE:BELLE™ Media.</div>
+        <div class="footer__sub">The Art of Feeling. Amplified.</div>
+      </div>
+
+      <div class="footer__links">
+        <a href="https://newwomanintheshop.com" target="_blank" rel="noopener">🖤 newwomanintheshop.com</a>
+        <a href="https://rebellemedia.de" target="_blank" rel="noopener">🖤 rebellemedia.de</a>
+        <a href="mailto:rebelle.media.creator@gmail.com">🖤 rebelle.media.creator@gmail.com</a>
+      </div>
+
+      <div class="footer__sig">
+        <span class="allura">Tina</span>
       </div>
     </div>
-  </div>
-</header>
+  </footer>
 
-<main>
-
-<section class="hero">
-  <div class="wrap hero__grid">
-    <div class="hero__copy">
-      <div class="pill">Für IHK · Hotellerie · Bäckereien · Gastronomie</div>
-
-      <h1>Mise-Rebel.<br><span class="accent">Struktur statt Chaos.</span></h1>
-
-      <p class="lead">
-        Ausbildung ist kein PDF. Kein Zettel. Kein „mach mal“.
-        Mise-Rebel bringt Struktur in Berichtsheft, Lernstoff,
-        Warenkunde und Prüfungsvorbereitung – so, dass Betrieb
-        und Azubi wirklich damit arbeiten.
-      </p>
-    </div>
-  </div>
-</section>
-
-<section class="section">
-  <div class="wrap">
-    <h2>Was das System löst</h2>
-
-    <div class="grid grid--3">
-      <div class="card">
-        <h3>Berichtsheft mit Struktur</h3>
-        <p>Kein Freitext-Chaos. Klar geführt. Schnell ausfüllbar.</p>
-      </div>
-      <div class="card">
-        <h3>Warenkunde & Saison</h3>
-        <p>Praxisnah für Küche & Bäckerei.</p>
-      </div>
-      <div class="card">
-        <h3>AP1 / AP2 Simulator</h3>
-        <p>Prüfung trainieren. Schwächen erkennen.</p>
-      </div>
-    </div>
-  </div>
-</section>
-
-<section class="section section--alt">
-  <div class="wrap final">
-    <h2>Fakten</h2>
-
-    <div class="facts">
-      <div class="fact"><b>Zielgruppe:</b> IHK-Ausbildung · Hotellerie · Bäckereien</div>
-      <div class="fact"><b>Module:</b> Berichtsheft · Glossar · Warenkunde · Lernstoff · Quiz · AP1/AP2</div>
-      <div class="fact"><b>Nutzen:</b> Weniger Rückfragen. Mehr Überblick. Sichtbarer Fortschritt.</div>
-      <div class="fact"><b>Optional:</b> KI-Lernhilfe für Fachfragen im Alltag</div>
-    </div>
-  </div>
-</section>
-
-</main>
-
-<footer class="footer">
-  <div class="wrap footer__inner">
-    <div class="footer__brand">
-      <div class="footer__name">🖤RE:BELLE™ Media</div>
-      <div class="footer__sub">The Art of Feeling. Amplified.</div>
-    </div>
-
-    <div class="footer__links">
-      <a href="https://newwomanintheshop.com" target="_blank">🖤 newwomanintheshop.com</a>
-      <a href="https://rebellemedia.de" target="_blank">🖤 rebellemedia.de</a>
-      <a href="mailto:rebelle.media.creator@gmail.com">🖤 rebelle.media.creator@gmail.com</a>
-    </div>
-
-    <div class="footer__signature">
-      by <span class="allura">Tina</span>
-    </div>
-  </div>
-</footer>
-
+  <script src="app.js"></script>
 </body>
 </html>
